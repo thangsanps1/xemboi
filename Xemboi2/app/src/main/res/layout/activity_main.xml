@@ -1,0 +1,122 @@
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bachduong"
+                    android:layout_width="190dp"
+                    android:layout_height="225dp"
+                    android:src="@drawable/bachduong"/>
+                <ImageView
+                    android:id="@+id/kimnguu"
+                    android:layout_width="190dp"
+                    android:layout_height="225dp"
+                    android:src="@drawable/kimnguu"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/songtu"
+                    android:layout_width="190dp"
+                    android:layout_height="225dp"
+                    android:src="@drawable/songtu"/>
+                <ImageView
+                    android:id="@+id/cugiai"
+                    android:layout_width="190dp"
+                    android:layout_height="225dp"
+                    android:src="@drawable/cugiai"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/sutu"
+                    android:layout_width="190dp"
+                    android:layout_height="225dp"
+                    android:src="@drawable/sutu"/>
+                <ImageView
+                    android:id="@+id/xunu"
+                    android:layout_width="190dp"
+                    android:layout_height="225dp"
+                    android:src="@drawable/xunu"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/thienbinh"
+                    android:layout_width="190dp"
+                    android:layout_height="225dp"
+                    android:src="@drawable/thienbinh"/>
+                <ImageView
+                    android:id="@+id/thannong"
+                    android:layout_width="190dp"
+                    android:layout_height="225dp"
+                    android:src="@drawable/hocap"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/nhanma"
+                    android:layout_width="190dp"
+                    android:layout_height="225dp"
+                    android:src="@drawable/nhanma"/>
+                <ImageView
+                    android:id="@+id/maket"
+                    android:layout_width="190dp"
+                    android:layout_height="225dp"
+                    android:src="@drawable/maket"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/baobinh"
+                    android:layout_width="190dp"
+                    android:layout_height="225dp"
+                    android:src="@drawable/baobinh"/>
+                <ImageView
+                    android:id="@+id/songngu"
+                    android:layout_width="190dp"
+                    android:layout_height="225dp"
+                    android:src="@drawable/songngu"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

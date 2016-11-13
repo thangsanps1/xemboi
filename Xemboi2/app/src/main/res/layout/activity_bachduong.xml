@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Ngày tháng"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn ngày"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="500dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bachduong"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:text="
+Khoan dung, có lòng thương cảm, cởi mở, không phán xét, tình cảm, nhạy cảm, quan tâm tới người khác, thái độ âu yếm, lãng mạn, nặng về tinh thần và là người nhân đạo.
+Có tinh thần độc lập, can đảm, kiên cường. Là người có bản chất lạc quan, ngưới có số sinh 9 chỉ nhìn thấy đời toàn màu hồng, dễ dàng chấp nhận những thăng trầm trong cuộc sống. Họ rất tự tin và tự hài lòng.
+Khi hành động, họ thường quả quyết, không bao giờ bỏ cuộc hoặc nản chí. Nhiệt tình và sức sống mãnh liệt của họ ảnh hưởng tốt tới người khác. Trong thâm tâm họ rất thông cảm và hiểu người khác. Họ không muốn phán xét ai và vui vẻ chấp nhận mọi người. Họ thích màu nâu, đó là một màu phong phú phản ánh sự tự tin và an toàn, và cũng là một màu êm dịu làm giảm căng thẳng trong cuộc sống."/>
+    </LinearLayout></ScrollView>
+</LinearLayout>
